@@ -1,5 +1,9 @@
-public class W1d1 {
+public class MyFirstJavaProgram {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        
+        byte smallNum = 20;
+        System.out.println(smallNum);
+        smallNum = 99;
+        System.out.println(smallNum);
     }
 }
